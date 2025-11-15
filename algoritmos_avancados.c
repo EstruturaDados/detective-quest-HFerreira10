@@ -59,7 +59,7 @@ void explorarSalas(Sala *raiz) {
     Sala *sala_atual = raiz;
     char escolha;
 
-    printf("\n--- 🕵️ Início da Exploração: Detective Quest ---\n");
+    printf("\n--- Detective Quest ---\n");
     printf("Você está no **%s**. Onde deseja ir?\n", sala_atual->nome);
 
     while (sala_atual != NULL) {
